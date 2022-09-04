@@ -16,7 +16,7 @@ cleanRelational = CleanRelationaldatabase(dbpath)
 obj = RelationalDataProcessor() 
 obj.setDbPath(dbpath) 
 obj.uploadData(jsnrel)
-obj.uploadData(csvrel)
+#obj.uploadData(csvrel)
 rqp = RelationalQueryProcessor()
 rqp.setDbPath(dbpath)
 
