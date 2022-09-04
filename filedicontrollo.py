@@ -10,7 +10,7 @@ jsnrel = "./relational_db/relational_other_data.json"
 csvrel  = "./relational_db/relational_publication.csv"
 dbpath = "publications.db"
 
-"""
+
 #RELATIONAL DATABASE STEPS 
 cleanRelational = CleanRelationaldatabase(dbpath)
 obj = RelationalDataProcessor() 
@@ -19,7 +19,7 @@ obj.uploadData(jsnrel)
 obj.uploadData(csvrel)
 rqp = RelationalQueryProcessor()
 rqp.setDbPath(dbpath)
-"""
+
 """
 #GRAPH DATABASE STEPS 
 endpointUrl = 'http://127.0.0.1:9999/blazegraph/sparql'
